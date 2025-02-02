@@ -50,6 +50,12 @@ python train.py
 
 Isso iniciará o treinamento e salvará as imagens geradas ao longo do tempo.
 
+## Evolução das Imagens Geradas por Época
+
+Aqui está um GIF mostrando a evolução das imagens geradas ao longo do treinamento:
+
+![Evolução do Treinamento](output.gif)
+
 ## Resultados
 Após algumas épocas de treinamento, o gerador começa a produzir imagens realistas de rostos de celebridades. O progresso pode ser monitorado utilizando o TensorBoard:
 ```bash
@@ -61,4 +67,3 @@ Este projeto demonstra como construir e treinar uma DCGAN do zero para gerar ima
 
 ---
 Desenvolvido seguindo o tutorial do YouTube [Implementing DCGAN from Scratch](https://youtu.be/IZtv9s_Wx9I?list=PLhhyoLH6IjfwIp8bZnzX8QR30TRcHO8Va).
-
